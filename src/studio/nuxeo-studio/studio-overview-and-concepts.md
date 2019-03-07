@@ -78,35 +78,30 @@ history:
     date: '2011-08-05 18:15'
     message: ''
     version: '1'
----
 
+---
 {{! excerpt}}
 Nuxeo Studio is a SaaS (Software as a Service) application to configure the Nuxeo Platform easily which enables to develop new applications without writing code.
 {{! /excerpt}}
-
 Since you can quickly configure the platform and safely make it evolve, Nuxeo Studio lowers the maintenance cost of your business applications and makes them easy to scale.
 
+{{!--     ### nx_asset ###
+    path: /default-domain/workspaces/Product Management/Documentation/Documentation Screenshots/Studio/Studio Overview and Concepts/One-click Deployment
+    name: one-click-deployment.png
+    studio_modeler#screenshot#up_to_date
+--}}
+![One-click Deployment ](nx_asset://071fbee4-5994-4ac0-aac6-540656b7f269 ?w=650,border=true)
+<!--![](https://www.lucidchart.com/publicSegments/view/54c64fa0-9150-4b14-b7e0-572f0a009cea/image.png ?w=600,border=true)-->
 <div class="row" data-equalizer data-equalize-on="medium"><div class="column medium-4">{{#> panel type='primary' match_height='true'}}
-
-**Nuxeo Studio is a graphical configuration tool.**<br>
-
-Configure and design everything that builds your business logic without code or XML configuration, preventing time-consuming development issues.<br>
-
+**Nuxeo Studio is a graphical configuration tool.**</br>
+Configure and design everything that builds your business logic without code or XML configuration, preventing time-consuming development issues.
 {{/panel}}</div><div class="column medium-4">{{#> panel type='primary' match_height='true'}}
-
-**Nuxeo Studio facilitates the deployment of your applications.**<br>
-
+**Nuxeo Studio facilitates the deployment of your applications.**</br>
 Deploy your configurations in a click. You don't even need to restart your server. Studio generates a single JAR file that holds all your configurations.
-
 {{/panel}}</div><div class="column medium-4">{{#> panel type='primary' match_height='true'}}
-
-**Nuxeo Studio simplifies upgrades of your Nuxeo-based applications.**<br>
-
+**Nuxeo Studio simplifies upgrades of your Nuxeo-based applications.**</br>
 Evolve safely. Configurations compatibility with future versions is guaranteed. Auto-migration process and consistency checks ensure a safe path to new technologies.
-
 {{/panel}}</div></div>
-
-![](https://www.lucidchart.com/publicSegments/view/54c64fa0-9150-4b14-b7e0-572f0a009cea/image.png ?w=600,border=true)
 
 Nuxeo Studio enables you to adapt the Nuxeo Platform to the needs of your business application, from graphical configurations to the creation of new business workflows. Studio is divided in:
 
@@ -114,21 +109,14 @@ Nuxeo Studio enables you to adapt the Nuxeo Platform to the needs of your busine
 <div class="column medium-6">
 {{#> panel type='secondary' match_height='true'}}
 ### [Studio Modeler]({{page version='' space='studio' page='working-in-studio'}})
-
 Configure your content models and business workflows
-
 {{/panel}}
-
 </div>
-
 <div class="column medium-6">
 {{#> panel type='secondary' match_height='true'}}
 ### [Studio Designer]({{page version='' space='nxdoc' page='studio-Modeler'}})
-
 Configure your forms and layouts designs for Web UI
-
 {{/panel}}
-
 </div>
 </div>
 
@@ -158,17 +146,10 @@ Here is a list of resources to start working with Nuxeo Studio:
 - [Quick Start Dev Guide]({{page space='nxdoc' page='configure-nuxeo-platform'}}): Start configuring a Nuxeo Platform project
 
 Supported browser:
-
 - Google Chrome
-
-<!--{{! multiexcerpt name='webui-supported-browsers'}}
-
-- Google Chrome
-- Firefox
-  {{! /multiexcerpt}}-->
 
 {{#> callout type='info' heading='Nuxeo University'}}
-Watch the related courses on Nuxeo University:<br>
+Watch the related courses on Nuxeo University:</br>
 [Video on Nuxeo Studio Concepts](https://university.nuxeo.com/learn/public/course/view/elearning/142/nuxeo-platform-quickstart-nuxeo-studio-concepts)
 ![]({{file name='university-nuxeo-studio-concepts.png' page='nxdoc/university'}} ?w=450,border=true)
 {{/callout}}
