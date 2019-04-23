@@ -11,6 +11,7 @@ labels:
     - drag-and-drop
 tree_item_index: 100
 ---
+
 {{! excerpt}}
 In order to help you find the documents that you need, the Nuxeo Platform features several options to access, create and edit documents.
 {{! /excerpt}}
@@ -57,6 +58,7 @@ The displayed information can also be changed from the [Search view]({{page vers
 The information displayed on content views can be filtered with filters at the top of every columns.
 
 ### Access Keys
+
 Some actions or features are accessible using access keys:
 - c: Create
 - d: Dashboard
@@ -64,6 +66,7 @@ Some actions or features are accessible using access keys:
 - shift + /: Search
 
 ## Creating Content
+
 {{{multiexcerpt 'intro-creating-content'}}}
 
 ### Creating a Document Using the Create Button
